@@ -55,7 +55,7 @@ struct ProfileView: View {
                     Button {
                         
                     } label: {
-                        Text("Edit Profil")
+                        Text("Edit Profile")
                             .font(.subheadline)
                             .fontWeight(.semibold)
                             .frame(width: 360, height: 32)

@@ -11,6 +11,9 @@
 		BD976C172AE9B80D00144379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD976C162AE9B80D00144379 /* ContentView.swift */; };
 		BD976C192AE9B81000144379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD976C182AE9B81000144379 /* Assets.xcassets */; };
 		BD976C1C2AE9B81000144379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD976C1B2AE9B81000144379 /* Preview Assets.xcassets */; };
+		BD976C2F2AE9BA8900144379 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD976C2E2AE9BA8900144379 /* MainTabView.swift */; };
+		BD976C312AE9BB4C00144379 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD976C302AE9BB4C00144379 /* ProfileView.swift */; };
+		BD976C342AE9BDBB00144379 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD976C332AE9BDBB00144379 /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BD976C162AE9B80D00144379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD976C182AE9B81000144379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD976C1B2AE9B81000144379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD976C2E2AE9BA8900144379 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		BD976C302AE9BB4C00144379 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BD976C332AE9BDBB00144379 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,11 @@
 		BD976C132AE9B80D00144379 /* InstagramIOS */ = {
 			isa = PBXGroup;
 			children = (
-				BD976C142AE9B80D00144379 /* InstagramIOSApp.swift */,
+				BD976C262AE9B9C700144379 /* App */,
+				BD976C252AE9B9C400144379 /* Core */,
+				BD976C242AE9B9C200144379 /* Extensions */,
+				BD976C232AE9B9C000144379 /* Model */,
+				BD976C222AE9B9BD00144379 /* Services */,
 				BD976C162AE9B80D00144379 /* ContentView.swift */,
 				BD976C182AE9B81000144379 /* Assets.xcassets */,
 				BD976C1A2AE9B81000144379 /* Preview Content */,
@@ -65,6 +75,109 @@
 				BD976C1B2AE9B81000144379 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD976C222AE9B9BD00144379 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BD976C232AE9B9C000144379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD976C242AE9B9C200144379 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BD976C252AE9B9C400144379 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BD976C322AE9BD9D00144379 /* Components */,
+				BD976C2D2AE9BA0B00144379 /* Authentication */,
+				BD976C2C2AE9BA0800144379 /* Feed */,
+				BD976C2B2AE9BA0500144379 /* Profile */,
+				BD976C2A2AE9BA0300144379 /* Root */,
+				BD976C292AE9B9FD00144379 /* Search */,
+				BD976C282AE9B9FA00144379 /* TabBar */,
+				BD976C272AE9B9F500144379 /* UploadPost */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BD976C262AE9B9C700144379 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BD976C142AE9B80D00144379 /* InstagramIOSApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BD976C272AE9B9F500144379 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		BD976C282AE9B9FA00144379 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BD976C2E2AE9BA8900144379 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BD976C292AE9B9FD00144379 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BD976C2A2AE9BA0300144379 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		BD976C2B2AE9BA0500144379 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BD976C302AE9BB4C00144379 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BD976C2C2AE9BA0800144379 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		BD976C2D2AE9BA0B00144379 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BD976C322AE9BD9D00144379 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BD976C332AE9BDBB00144379 /* UserStatView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD976C312AE9BB4C00144379 /* ProfileView.swift in Sources */,
 				BD976C172AE9B80D00144379 /* ContentView.swift in Sources */,
 				BD976C152AE9B80D00144379 /* InstagramIOSApp.swift in Sources */,
+				BD976C342AE9BDBB00144379 /* UserStatView.swift in Sources */,
+				BD976C2F2AE9BA8900144379 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +396,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +426,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -28,18 +28,10 @@ struct LoginView: View {
                 VStack {
                     TextField ("Enter your email", text: $email)
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .modifier(IGTextFieldModifier())
                     
                     SecureField("Enter your password", text: $password)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .modifier(IGTextFieldModifier())
                 }
                 
                 Button {
@@ -97,7 +89,8 @@ struct LoginView: View {
                 Divider()
                 
                 NavigationLink {
-                    Text ("Sign Up")
+                    AddEmailView()
+                        .navigationBarBackButtonHidden()
                 } label: {
                     HStack (spacing: 3) {
                         Text ("Don't have an account?")

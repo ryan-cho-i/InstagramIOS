@@ -15,6 +15,7 @@
 		BD8F08F82AEA9C9300F3D8DF /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F08F72AEA9C9300F3D8DF /* CreatePasswordView.swift */; };
 		BD8F08FA2AEA9D8400F3D8DF /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F08F92AEA9D8400F3D8DF /* CompleteSignUpView.swift */; };
 		BD8F08FC2AEAAF3C00F3D8DF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F08FB2AEAAF3C00F3D8DF /* User.swift */; };
+		BD8F08FE2AEAB36600F3D8DF /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F08FD2AEAB36600F3D8DF /* CurrentUserProfileView.swift */; };
 		BD976C152AE9B80D00144379 /* InstagramIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD976C142AE9B80D00144379 /* InstagramIOSApp.swift */; };
 		BD976C172AE9B80D00144379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD976C162AE9B80D00144379 /* ContentView.swift */; };
 		BD976C192AE9B81000144379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD976C182AE9B81000144379 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		BD8F08F72AEA9C9300F3D8DF /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		BD8F08F92AEA9D8400F3D8DF /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 		BD8F08FB2AEAAF3C00F3D8DF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BD8F08FD2AEAB36600F3D8DF /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		BD976C112AE9B80D00144379 /* InstagramIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD976C142AE9B80D00144379 /* InstagramIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramIOSApp.swift; sourceTree = "<group>"; };
 		BD976C162AE9B80D00144379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				BD976C302AE9BB4C00144379 /* ProfileView.swift */,
+				BD8F08FD2AEAB36600F3D8DF /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				BD976C312AE9BB4C00144379 /* ProfileView.swift in Sources */,
 				BD8F08F02AEA942B00F3D8DF /* LoginView.swift in Sources */,
 				BD976C172AE9B80D00144379 /* ContentView.swift in Sources */,
+				BD8F08FE2AEAB36600F3D8DF /* CurrentUserProfileView.swift in Sources */,
 				BD8F08F22AEA985C00F3D8DF /* AddEmailView.swift in Sources */,
 				BD8F08F62AEA9B6200F3D8DF /* CreateUsernameView.swift in Sources */,
 				BD8F08FA2AEA9D8400F3D8DF /* CompleteSignUpView.swift in Sources */,

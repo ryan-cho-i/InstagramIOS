@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD8F08EE2AEA90FA00F3D8DF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F08ED2AEA90FA00F3D8DF /* SearchView.swift */; };
+		BD8F08F02AEA942B00F3D8DF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F08EF2AEA942B00F3D8DF /* LoginView.swift */; };
 		BD976C152AE9B80D00144379 /* InstagramIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD976C142AE9B80D00144379 /* InstagramIOSApp.swift */; };
 		BD976C172AE9B80D00144379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD976C162AE9B80D00144379 /* ContentView.swift */; };
 		BD976C192AE9B81000144379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD976C182AE9B81000144379 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		BD8F08ED2AEA90FA00F3D8DF /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BD8F08EF2AEA942B00F3D8DF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BD976C112AE9B80D00144379 /* InstagramIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD976C142AE9B80D00144379 /* InstagramIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramIOSApp.swift; sourceTree = "<group>"; };
 		BD976C162AE9B80D00144379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		BD976C2D2AE9BA0B00144379 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				BD8F08EF2AEA942B00F3D8DF /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				BD976C382AE9C73E00144379 /* FeedCell.swift in Sources */,
 				BD976C362AE9C73000144379 /* FeedView.swift in Sources */,
 				BD976C312AE9BB4C00144379 /* ProfileView.swift in Sources */,
+				BD8F08F02AEA942B00F3D8DF /* LoginView.swift in Sources */,
 				BD976C172AE9B80D00144379 /* ContentView.swift in Sources */,
 				BD8F08EE2AEA90FA00F3D8DF /* SearchView.swift in Sources */,
 				BD976C152AE9B80D00144379 /* InstagramIOSApp.swift in Sources */,
